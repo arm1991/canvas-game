@@ -6,7 +6,7 @@ class Field {
 		this.oddCell = "#a1df50";
 	}
 
-	draw(ctx) {
+	draw() {
 		for(let i = 0; i < this.game.width; ++i) {
 			for(let j = 0; j < this.game.height; ++j) {
 				if(i === 0 || j === 0 || i === this.game.height - 1 || j === this.game.width - 1) {
